@@ -1,0 +1,15 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    overflow: hidden; /* Prevent scrollbars if the image overflows */
+}
+
+.container {
+    position: relative; /* Create a positioning context for the image */
+}
+
+img {
+    position: absolute;
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+}
