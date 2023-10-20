@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from item.models import Category, Item
 from .forms import SignupForm
 # Create your views here.
-#Video left at 24:20
 
 def index(request):
     items = Item.objects.filter(is_sold=False)[0:6]
@@ -13,8 +12,17 @@ def index(request):
         'items':items,
     })
 
+def about(request):
+    return render(request, 'core/about.html')
+
 def contact(request):
     return render(request, 'core/contact.html')
+
+def privacy(request):
+    return render(request, 'core/privacy.html')
+
+def termsOfUse(request):
+    return render(request, 'core/termsOfUse.html')
 
 def signup(request):
     if request.method == 'POST':
