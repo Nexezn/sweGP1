@@ -3,27 +3,9 @@
 {% block title %}Terms of Use - A.L.F.A Errortronics{% endblock %}
 
 {% block content %}
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            text-align: center;
-        }
-        .container {
-            background-color: #ffffff;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-            text-align: left;
-        }
-    </style>
+    {% load static %}
+        <link rel="stylesheet" href="{% static '/core/terms.css' %}">
+
 <h1>The contact page</h1>
 
     <body>
