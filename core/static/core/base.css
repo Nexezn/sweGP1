@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #6bbec4;
+    background-color: #bfe8eb;
     text-align: center;
 }
 
@@ -8,5 +8,5 @@ body{
     display: block;
     margin-left: 10px;
     margin-right: auto;
-    width: 15%;
+    width: 20%;
 }
